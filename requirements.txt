@@ -1,0 +1,9 @@
+-r requirements-demo.txt
+pandas
+numpy
+scikit-learn
+sacrebleu
+tqdm
+jupyterlab
+ipykernel
+jinja2

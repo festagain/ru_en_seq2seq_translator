@@ -1,0 +1,33 @@
+# Python, виртуальные окружения и кэши
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Локальный датасет и тексты для обучения токенизаторов
+/data/dataset_small.tsv
+/dataset_small.tsv
+/artifacts/tokenizers/train_*.txt
+
+# Старые веса; для публикации оставлен только чекпоинт демо
+/weights/
+*.pt
+!/models/best_bpe_attention.pt
+
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+token_info.py
+
+# Настройки редакторов и системные файлы
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+
+# Токенизаторы .model/.vocab, ноутбуки и results остаются в Git.

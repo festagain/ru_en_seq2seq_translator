@@ -1,0 +1,4 @@
+model,test_size,BLEU
+bpe_attention_lstm,82408,48.96257871301625
+word_lstm,82408,44.38455789235424
+bpe_lstm,82408,42.79495740705205
